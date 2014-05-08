@@ -6,6 +6,7 @@ RANLIB=ranlib
 CFLAGS= -g -Wall -Wno-unused-function
 LIBS = -lm -pthread
 PROGRAMS =  sig_mutex \
+			pipe
 
 all: $(PROGRAMS)
 
